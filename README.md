@@ -3,6 +3,18 @@
 ***Name**: Kaushal Lodd  
 **Roll**: BT19CSE052*
 
+## Table of Contents
+
+1. [Problem Statement](#problem-statement)
+2. [Tools Used](#tools-used)
+3. [Benefits of Spring JDBC over JDBC](#installation)
+4. [Installation and Setup](#collaboration)
+5. [Dependencies in pom.xml file](#faqs)
+6. [H2 In-Memory Database]()
+7. [Creating schema and Providing Data]()
+8. [Creating Student Bean and Repository method]()
+9. [Implementing Spring JDBC CRUD operations]()
+
 ## Problem Statement
 
 Create a project to connect to a database using Spring JDBC (Java Database Connectivity) with all the CRUD methods.
@@ -93,7 +105,7 @@ create table student
    primary key(id)
 );
 ```
-We insert the following data into the table
+We insert the following data into the table. This data is present in `/src/main/resources/data.sql`
 
 ```
 insert into student
@@ -103,10 +115,19 @@ insert into student
 values(10002,'Ravi', 'A1234568');
 ```
 
+## Creating Student Bean and Repository method
 
+* Student bean contains basic student information along with getters, setters and toString().
+* JdbcTemplate is used to talk to the database. It contains a number of methods to execute queries.
+* The results from ResultSet needs to be mapped to Student bean using a BeanPropertyRowMapper
 
+## Implementing Spring JDBC CRUD operations
 
-
-
+* The following methods have been written for executing CRUD operations.
+    * findAll()
+    * findById()
+    * deleteById()
+    * insert()
+    * update()
 
 
