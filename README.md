@@ -7,13 +7,13 @@
 
 1. [Problem Statement](#problem-statement)
 2. [Tools Used](#tools-used)
-3. [Benefits of Spring JDBC over JDBC](#installation)
-4. [Installation and Setup](#collaboration)
-5. [Dependencies in pom.xml file](#faqs)
-6. [H2 In-Memory Database]()
-7. [Creating schema and Providing Data]()
-8. [Creating Student Bean and Repository method]()
-9. [Implementing Spring JDBC CRUD operations]()
+3. [Benefits of Spring JDBC over JDBC](#Benefits-of-Spring-JDBC-over-JDBC)
+4. [Installation and Setup](#Installation-and-Setup)
+5. [Dependencies in pom.xml file](#Dependencies-in-pom.xml-file)
+6. [H2 In-Memory Database](#H2-In-Memory-Database)
+7. [Creating schema and Providing Data](#Creating-schema-and-Providing-Data)
+8. [Creating Student Bean and Repository method](#Creating-Student-Bean-and-Repository-method)
+9. [Implementing Spring JDBC CRUD operations](#Implementing-Spring-JDBC-CRUD-operations)
 
 ## Problem Statement
 
