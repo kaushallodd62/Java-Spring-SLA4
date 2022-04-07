@@ -1,6 +1,6 @@
 ## Java Spring JDBC
 
-***Name**: Kaushal Lodd
+***Name**: Kaushal Lodd  
 **Roll**: BT19CSE052*
 
 ## Problem Statement
@@ -79,6 +79,30 @@ spring.h2.console.enabled=true
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.data.jpa.repositories.bootstrap-mode=default
 ```
+
+## Creating schema and Providing Data
+
+`schema.sql` in `/src/main/resources/data.sql` contains the following schema
+
+```
+create table student
+(
+   id integer not null,
+   name varchar(255) not null,
+   passport_number varchar(255) not null,
+   primary key(id)
+);
+```
+We insert the following data into the table
+
+```
+insert into student
+values(10001,'Ranga', 'E1234567');
+
+insert into student
+values(10002,'Ravi', 'A1234568');
+```
+
 
 
 
