@@ -14,6 +14,7 @@
 7. [Creating schema and Providing Data](#Creating-schema-and-Providing-Data)
 8. [Creating Student Bean and Repository method](#Creating-Student-Bean-and-Repository-method)
 9. [Implementing Spring JDBC CRUD operations](#Implementing-Spring-JDBC-CRUD-operations)
+10. [Screenshots](#screenshots)
 
 ## Problem Statement
 
@@ -38,10 +39,10 @@ Create a project to connect to a database using Spring JDBC (Java Database Conne
 
 ## Installation and Setup
 
-1. Install JDK from Java Downloads in Oracle Website.
-2. Install Eclipse or your favorite IDE which supports Maven Projects.
+1. Install JDK from [Java Downloads in Oracle Website](https://www.oracle.com/java/technologies/downloads/).
+2. Install [Eclipse](https://www.eclipse.org/downloads/) or your favorite IDE which supports Maven Projects.
 3. Install necessary Spring Boot Plugins depending on you IDE.
-4. Go to Spring Initializr and generate a bare-bone Spring boot Maven Project. We select the following dependencies
+4. Go to [Spring Initializr](https://start.spring.io/) and generate a bare-bone Spring boot Maven Project. We select the following dependencies
     * Web
     * JDBC
     * H2
@@ -130,4 +131,6 @@ values(10002,'Ravi', 'A1234568');
     * insert()
     * update()
 
+## Screenshots
 
+Execution screenshots can be found in the directory `Screenshots`.
